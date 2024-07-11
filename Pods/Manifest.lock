@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (5.7.1)
+  - Koloda (5.0.1):
+    - pop (~> 1.0)
+  - pop (1.0.12)
+  - PopBounceButton (1.2.2):
+    - pop (~> 1.0)
+  - Shuffle-iOS (0.5.0)
+  - SwiftyJSON (4.3.0)
+  - TinderSwipeView (1.1.8)
+
+DEPENDENCIES:
+  - Alamofire
+  - Koloda
+  - PopBounceButton
+  - Shuffle-iOS
+  - SwiftyJSON (~> 4.0)
+  - TinderSwipeView (~> 1.1.8)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Koloda
+    - pop
+    - PopBounceButton
+    - Shuffle-iOS
+    - SwiftyJSON
+    - TinderSwipeView
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  Koloda: d07b9199a383abc5898b62aa945a599f5e7c0c4b
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  PopBounceButton: 34105a012678222f058f8d2621672724a3d5c9fb
+  Shuffle-iOS: ff33658fb1e5eebd6a4724c156473e63754be9cb
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  TinderSwipeView: 13e7de167edb6b9883b398878a0e36e3633e01a0
+
+PODFILE CHECKSUM: e0da493caf7746e0f2cc0e4b57b7af757934727a
+
+COCOAPODS: 1.12.1

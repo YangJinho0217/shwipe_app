@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		856A13FD7C5584906DC88B57 /* Pods_swipeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1C946ED676E92799E4B4D1 /* Pods_swipeApp.framework */; };
+		DA0CB1F42AFA6B76003A5AFC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0CB1F32AFA6B76003A5AFC /* Card.swift */; };
+		DA0CB1F62AFA6EBB003A5AFC /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0CB1F52AFA6EBB003A5AFC /* CardViewController.swift */; };
+		DA0CB1F82AFA7242003A5AFC /* TinderCardOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0CB1F72AFA7242003A5AFC /* TinderCardOverlay.swift */; };
+		DA0CB1FA2AFA733C003A5AFC /* TinderCardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0CB1F92AFA733C003A5AFC /* TinderCardContentView.swift */; };
+		DA0CB1FC2AFA735C003A5AFC /* TinderCardFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0CB1FB2AFA735C003A5AFC /* TinderCardFooterView.swift */; };
+		DA0CB1FF2AFA739E003A5AFC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0CB1FE2AFA739E003A5AFC /* Extensions.swift */; };
+		DA0CB2022AFD11EB003A5AFC /* ClosetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0CB2012AFD11EB003A5AFC /* ClosetViewController.swift */; };
+		DA0CB2052AFD125D003A5AFC /* ReturnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0CB2042AFD125D003A5AFC /* ReturnViewController.swift */; };
+		DA0CB2082AFD1277003A5AFC /* LikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0CB2072AFD1277003A5AFC /* LikeViewController.swift */; };
+		DA0CB20B2AFD1287003A5AFC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0CB20A2AFD1287003A5AFC /* ProfileViewController.swift */; };
+		DA0CB2332AFDF8F1003A5AFC /* StandardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0CB2322AFDF8F1003A5AFC /* StandardViewController.swift */; };
+		DA0CB2352AFDFD6A003A5AFC /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0CB2342AFDFD6A003A5AFC /* CustomTabBarViewController.swift */; };
+		DA0CB2382AFE0B1C003A5AFC /* ClosetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0CB2372AFE0B1C003A5AFC /* ClosetTableViewCell.swift */; };
+		DA0CB23A2AFE0BC0003A5AFC /* ClosetStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0CB2392AFE0BC0003A5AFC /* ClosetStruct.swift */; };
+		DA2D3C6F2A789EEA00AD810E /* AppLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2D3C6E2A789EEA00AD810E /* AppLoadingViewController.swift */; };
+		DA2D3C722A78A08B00AD810E /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2D3C712A78A08B00AD810E /* NSObject.swift */; };
+		DA2D3C782A78C27E00AD810E /* AppDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2D3C772A78C27E00AD810E /* AppDefine.swift */; };
+		DA2D3C9C2A78CE2200AD810E /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2D3C9B2A78CE2200AD810E /* Splash.storyboard */; };
+		DA41C2F92B1DBEE600E587AC /* LikeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA41C2F82B1DBEE600E587AC /* LikeTableViewCell.swift */; };
+		DA78126A292BB00F00CE4D63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA781269292BB00F00CE4D63 /* AppDelegate.swift */; };
+		DA78126E292BB00F00CE4D63 /* MainVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA78126D292BB00F00CE4D63 /* MainVIewController.swift */; };
+		DA781273292BB01200CE4D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA781272292BB01200CE4D63 /* Assets.xcassets */; };
+		DA81C52D2A7A283B0064AE3B /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81C52C2A7A283B0064AE3B /* UserData.swift */; };
+		DA81C5302A7A37070064AE3B /* URLSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81C52F2A7A37070064AE3B /* URLSetting.swift */; };
+		DA81C5322A7A40840064AE3B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81C5312A7A40840064AE3B /* NetworkManager.swift */; };
+		DA81C5342A7B74B20064AE3B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81C5332A7B74B20064AE3B /* LoginViewController.swift */; };
+		DA81C5362A7B76040064AE3B /* LoginAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81C5352A7B76040064AE3B /* LoginAuthViewController.swift */; };
+		DA85F88C2982B7DC00E2B432 /* LogoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA85F88B2982B7DC00E2B432 /* LogoView.xib */; };
+		DAB1E9102B2C54F40044AEDB /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1E90F2B2C54F40044AEDB /* ProductDetailViewController.swift */; };
+		DAB86889292BBEC400B94CB1 /* MainImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB86888292BBEC400B94CB1 /* MainImageView.xib */; };
+		DAB8688B292BBF0E00B94CB1 /* MainImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB8688A292BBF0E00B94CB1 /* MainImageView.swift */; };
+		DAF28BD2293AD1CB00BDAB63 /* ImageSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF28BD1293AD1CB00BDAB63 /* ImageSB.storyboard */; };
+		DAF28BD4293AD45100BDAB63 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF28BD3293AD45100BDAB63 /* ContainerViewController.swift */; };
+		DAF28BD6293E170000BDAB63 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF28BD5293E170000BDAB63 /* Account.storyboard */; };
+		DAF28BD9293E19D700BDAB63 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF28BD8293E19D700BDAB63 /* SignInViewController.swift */; };
+		DAF28BDB293E214200BDAB63 /* PhoneNumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF28BDA293E214200BDAB63 /* PhoneNumViewController.swift */; };
+		DAF28BDD293E221000BDAB63 /* AuthCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF28BDC293E221000BDAB63 /* AuthCodeViewController.swift */; };
+		DAF28BDF293E245000BDAB63 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF28BDE293E245000BDAB63 /* EmailViewController.swift */; };
+		DAF28BFC2951D62900BDAB63 /* AppleLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF28BFB2951D62900BDAB63 /* AppleLoginViewController.swift */; };
+		DAF28BFE2951DDDC00BDAB63 /* MyNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF28BFD2951DDDC00BDAB63 /* MyNameViewController.swift */; };
+		DAF28C002951DDF900BDAB63 /* MyBirthDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF28BFF2951DDF900BDAB63 /* MyBirthDayViewController.swift */; };
+		DAF28C022951DE1900BDAB63 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF28C012951DE1900BDAB63 /* GenderViewController.swift */; };
+		DAF28C042951DE3600BDAB63 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF28C032951DE3600BDAB63 /* TermsViewController.swift */; };
+		DAF28C062951DFAC00BDAB63 /* WellcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF28C052951DFAC00BDAB63 /* WellcomeViewController.swift */; };
+		DAF28C082951E14D00BDAB63 /* EnumFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF28C072951E14D00BDAB63 /* EnumFile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1587B4B6BD12A9CEF4458A7B /* Pods-swipeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swipeApp.debug.xcconfig"; path = "Target Support Files/Pods-swipeApp/Pods-swipeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A2E06B580196E02503496C87 /* Pods-swipeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swipeApp.release.xcconfig"; path = "Target Support Files/Pods-swipeApp/Pods-swipeApp.release.xcconfig"; sourceTree = "<group>"; };
+		BB1C946ED676E92799E4B4D1 /* Pods_swipeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swipeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0CB1F32AFA6B76003A5AFC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		DA0CB1F52AFA6EBB003A5AFC /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		DA0CB1F72AFA7242003A5AFC /* TinderCardOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCardOverlay.swift; sourceTree = "<group>"; };
+		DA0CB1F92AFA733C003A5AFC /* TinderCardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCardContentView.swift; sourceTree = "<group>"; };
+		DA0CB1FB2AFA735C003A5AFC /* TinderCardFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCardFooterView.swift; sourceTree = "<group>"; };
+		DA0CB1FE2AFA739E003A5AFC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DA0CB2012AFD11EB003A5AFC /* ClosetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosetViewController.swift; sourceTree = "<group>"; };
+		DA0CB2042AFD125D003A5AFC /* ReturnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnViewController.swift; sourceTree = "<group>"; };
+		DA0CB2072AFD1277003A5AFC /* LikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeViewController.swift; sourceTree = "<group>"; };
+		DA0CB20A2AFD1287003A5AFC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DA0CB2322AFDF8F1003A5AFC /* StandardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardViewController.swift; sourceTree = "<group>"; };
+		DA0CB2342AFDFD6A003A5AFC /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		DA0CB2372AFE0B1C003A5AFC /* ClosetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosetTableViewCell.swift; sourceTree = "<group>"; };
+		DA0CB2392AFE0BC0003A5AFC /* ClosetStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosetStruct.swift; sourceTree = "<group>"; };
+		DA2D3C6E2A789EEA00AD810E /* AppLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLoadingViewController.swift; sourceTree = "<group>"; };
+		DA2D3C712A78A08B00AD810E /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		DA2D3C772A78C27E00AD810E /* AppDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefine.swift; sourceTree = "<group>"; };
+		DA2D3C9B2A78CE2200AD810E /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		DA2D3C9D2A78D99100AD810E /* swipeAppRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swipeAppRelease.entitlements; sourceTree = "<group>"; };
+		DA41C2F82B1DBEE600E587AC /* LikeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeTableViewCell.swift; sourceTree = "<group>"; };
+		DA781266292BB00F00CE4D63 /* swipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA781269292BB00F00CE4D63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA78126D292BB00F00CE4D63 /* MainVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVIewController.swift; sourceTree = "<group>"; };
+		DA781272292BB01200CE4D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA781277292BB01200CE4D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA81C52C2A7A283B0064AE3B /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		DA81C52F2A7A37070064AE3B /* URLSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSetting.swift; sourceTree = "<group>"; };
+		DA81C5312A7A40840064AE3B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		DA81C5332A7B74B20064AE3B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DA81C5352A7B76040064AE3B /* LoginAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAuthViewController.swift; sourceTree = "<group>"; };
+		DA85F88B2982B7DC00E2B432 /* LogoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogoView.xib; sourceTree = "<group>"; };
+		DAB1E90F2B2C54F40044AEDB /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		DAB86888292BBEC400B94CB1 /* MainImageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainImageView.xib; sourceTree = "<group>"; };
+		DAB8688A292BBF0E00B94CB1 /* MainImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainImageView.swift; sourceTree = "<group>"; };
+		DAF28BD1293AD1CB00BDAB63 /* ImageSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageSB.storyboard; sourceTree = "<group>"; };
+		DAF28BD3293AD45100BDAB63 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		DAF28BD5293E170000BDAB63 /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		DAF28BD8293E19D700BDAB63 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		DAF28BDA293E214200BDAB63 /* PhoneNumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumViewController.swift; sourceTree = "<group>"; };
+		DAF28BDC293E221000BDAB63 /* AuthCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCodeViewController.swift; sourceTree = "<group>"; };
+		DAF28BDE293E245000BDAB63 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		DAF28BFB2951D62900BDAB63 /* AppleLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginViewController.swift; sourceTree = "<group>"; };
+		DAF28BFD2951DDDC00BDAB63 /* MyNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNameViewController.swift; sourceTree = "<group>"; };
+		DAF28BFF2951DDF900BDAB63 /* MyBirthDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBirthDayViewController.swift; sourceTree = "<group>"; };
+		DAF28C012951DE1900BDAB63 /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
+		DAF28C032951DE3600BDAB63 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		DAF28C052951DFAC00BDAB63 /* WellcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellcomeViewController.swift; sourceTree = "<group>"; };
+		DAF28C072951E14D00BDAB63 /* EnumFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFile.swift; sourceTree = "<group>"; };
+		DAF28C102953462E00BDAB63 /* swipeApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swipeApp.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA781263292BB00F00CE4D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856A13FD7C5584906DC88B57 /* Pods_swipeApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		256865DA585B7014D05186D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1587B4B6BD12A9CEF4458A7B /* Pods-swipeApp.debug.xcconfig */,
+				A2E06B580196E02503496C87 /* Pods-swipeApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A2BD05029F6F66DCCACA144 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB1C946ED676E92799E4B4D1 /* Pods_swipeApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA0CB1F22AFA6B63003A5AFC /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				DA0CB1F52AFA6EBB003A5AFC /* CardViewController.swift */,
+				DA0CB1F32AFA6B76003A5AFC /* Card.swift */,
+				DA0CB1F72AFA7242003A5AFC /* TinderCardOverlay.swift */,
+				DA0CB1F92AFA733C003A5AFC /* TinderCardContentView.swift */,
+				DA0CB1FB2AFA735C003A5AFC /* TinderCardFooterView.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		DA0CB1FD2AFA7383003A5AFC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DA0CB1FE2AFA739E003A5AFC /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DA0CB2002AFD11DA003A5AFC /* Closet */ = {
+			isa = PBXGroup;
+			children = (
+				DA0CB2362AFE0B0B003A5AFC /* TableView */,
+				DA0CB2012AFD11EB003A5AFC /* ClosetViewController.swift */,
+			);
+			path = Closet;
+			sourceTree = "<group>";
+		};
+		DA0CB2032AFD1250003A5AFC /* Return */ = {
+			isa = PBXGroup;
+			children = (
+				DA0CB2042AFD125D003A5AFC /* ReturnViewController.swift */,
+			);
+			path = Return;
+			sourceTree = "<group>";
+		};
+		DA0CB2062AFD126C003A5AFC /* Like */ = {
+			isa = PBXGroup;
+			children = (
+				DA41C2F72B1DBED000E587AC /* TableView */,
+				DA0CB2072AFD1277003A5AFC /* LikeViewController.swift */,
+			);
+			path = Like;
+			sourceTree = "<group>";
+		};
+		DA0CB2092AFD127C003A5AFC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				DA0CB20A2AFD1287003A5AFC /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		DA0CB2302AFDF8DE003A5AFC /* ImageSB */ = {
+			isa = PBXGroup;
+			children = (
+				DA0CB2322AFDF8F1003A5AFC /* StandardViewController.swift */,
+			);
+			name = ImageSB;
+			sourceTree = "<group>";
+		};
+		DA0CB2362AFE0B0B003A5AFC /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				DA0CB2372AFE0B1C003A5AFC /* ClosetTableViewCell.swift */,
+				DA0CB2392AFE0BC0003A5AFC /* ClosetStruct.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		DA2D3C6B2A789BB100AD810E /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				DA2D3C6E2A789EEA00AD810E /* AppLoadingViewController.swift */,
+			);
+			name = Splash;
+			sourceTree = "<group>";
+		};
+		DA2D3C702A78A07A00AD810E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DA81C52E2A7A36FB0064AE3B /* Network */,
+				DA81C52B2A7A282B0064AE3B /* UserData */,
+				DA2D3C752A78C25C00AD810E /* Define */,
+				DA2D3C712A78A08B00AD810E /* NSObject.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DA2D3C752A78C25C00AD810E /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				DA2D3C772A78C27E00AD810E /* AppDefine.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		DA41C2F72B1DBED000E587AC /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				DA41C2F82B1DBEE600E587AC /* LikeTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		DA78125D292BB00F00CE4D63 = {
+			isa = PBXGroup;
+			children = (
+				DA781268292BB00F00CE4D63 /* swipeApp */,
+				DA781267292BB00F00CE4D63 /* Products */,
+				256865DA585B7014D05186D6 /* Pods */,
+				6A2BD05029F6F66DCCACA144 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA781267292BB00F00CE4D63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA781266292BB00F00CE4D63 /* swipeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA781268292BB00F00CE4D63 /* swipeApp */ = {
+			isa = PBXGroup;
+			children = (
+				DA2D3C9D2A78D99100AD810E /* swipeAppRelease.entitlements */,
+				DA2D3C702A78A07A00AD810E /* Common */,
+				DAF28C102953462E00BDAB63 /* swipeApp.entitlements */,
+				DAB86884292BBE6700B94CB1 /* Source */,
+				DA781269292BB00F00CE4D63 /* AppDelegate.swift */,
+				DA781272292BB01200CE4D63 /* Assets.xcassets */,
+				DA781277292BB01200CE4D63 /* Info.plist */,
+			);
+			path = swipeApp;
+			sourceTree = "<group>";
+		};
+		DA81C52B2A7A282B0064AE3B /* UserData */ = {
+			isa = PBXGroup;
+			children = (
+				DA81C52C2A7A283B0064AE3B /* UserData.swift */,
+			);
+			path = UserData;
+			sourceTree = "<group>";
+		};
+		DA81C52E2A7A36FB0064AE3B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DA81C52F2A7A37070064AE3B /* URLSetting.swift */,
+				DA81C5312A7A40840064AE3B /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DA85F88A2982B7CA00E2B432 /* LogoView */ = {
+			isa = PBXGroup;
+			children = (
+				DA85F88B2982B7DC00E2B432 /* LogoView.xib */,
+			);
+			path = LogoView;
+			sourceTree = "<group>";
+		};
+		DAB1E90E2B2C54DB0044AEDB /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DAB1E90F2B2C54F40044AEDB /* ProductDetailViewController.swift */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+		DAB86884292BBE6700B94CB1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DAB86887292BBE8500B94CB1 /* Controller */,
+				DAB86886292BBE7C00B94CB1 /* View */,
+				DAB86885292BBE7300B94CB1 /* StoryBoard */,
+				DAF28C072951E14D00BDAB63 /* EnumFile.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DAB86885292BBE7300B94CB1 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				DAF28BD1293AD1CB00BDAB63 /* ImageSB.storyboard */,
+				DA2D3C9B2A78CE2200AD810E /* Splash.storyboard */,
+				DAF28BD5293E170000BDAB63 /* Account.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		DAB86886292BBE7C00B94CB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DAB1E90E2B2C54DB0044AEDB /* ProductDetail */,
+				DA0CB2092AFD127C003A5AFC /* Profile */,
+				DA0CB2062AFD126C003A5AFC /* Like */,
+				DA0CB2032AFD1250003A5AFC /* Return */,
+				DA0CB2002AFD11DA003A5AFC /* Closet */,
+				DA0CB1FD2AFA7383003A5AFC /* Extensions */,
+				DA0CB1F22AFA6B63003A5AFC /* Card */,
+				DA85F88A2982B7CA00E2B432 /* LogoView */,
+				DAB86888292BBEC400B94CB1 /* MainImageView.xib */,
+				DAB8688A292BBF0E00B94CB1 /* MainImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DAB86887292BBE8500B94CB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA0CB2302AFDF8DE003A5AFC /* ImageSB */,
+				DA2D3C6B2A789BB100AD810E /* Splash */,
+				DAF28BD7293E19B700BDAB63 /* Account */,
+				DA78126D292BB00F00CE4D63 /* MainVIewController.swift */,
+				DA0CB2342AFDFD6A003A5AFC /* CustomTabBarViewController.swift */,
+				DAF28BD3293AD45100BDAB63 /* ContainerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DAF28BD7293E19B700BDAB63 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				DAF28BDE293E245000BDAB63 /* EmailViewController.swift */,
+				DAF28BDA293E214200BDAB63 /* PhoneNumViewController.swift */,
+				DAF28BDC293E221000BDAB63 /* AuthCodeViewController.swift */,
+				DAF28BFB2951D62900BDAB63 /* AppleLoginViewController.swift */,
+				DAF28BFD2951DDDC00BDAB63 /* MyNameViewController.swift */,
+				DAF28BFF2951DDF900BDAB63 /* MyBirthDayViewController.swift */,
+				DAF28BD8293E19D700BDAB63 /* SignInViewController.swift */,
+				DAF28C012951DE1900BDAB63 /* GenderViewController.swift */,
+				DAF28C032951DE3600BDAB63 /* TermsViewController.swift */,
+				DAF28C052951DFAC00BDAB63 /* WellcomeViewController.swift */,
+				DA81C5332A7B74B20064AE3B /* LoginViewController.swift */,
+				DA81C5352A7B76040064AE3B /* LoginAuthViewController.swift */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA781265292BB00F00CE4D63 /* swipeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA78127A292BB01200CE4D63 /* Build configuration list for PBXNativeTarget "swipeApp" */;
+			buildPhases = (
+				B433579CA18C840EDF078ABE /* [CP] Check Pods Manifest.lock */,
+				DA781262292BB00F00CE4D63 /* Sources */,
+				DA781263292BB00F00CE4D63 /* Frameworks */,
+				DA781264292BB00F00CE4D63 /* Resources */,
+				5926CF5A5FFADE384FB846F3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swipeApp;
+			productName = swipeApp;
+			productReference = DA781266292BB00F00CE4D63 /* swipeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA78125E292BB00F00CE4D63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					DA781265292BB00F00CE4D63 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = DA781261292BB00F00CE4D63 /* Build configuration list for PBXProject "swipeApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA78125D292BB00F00CE4D63;
+			productRefGroup = DA781267292BB00F00CE4D63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA781265292BB00F00CE4D63 /* swipeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA781264292BB00F00CE4D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA85F88C2982B7DC00E2B432 /* LogoView.xib in Resources */,
+				DAF28BD2293AD1CB00BDAB63 /* ImageSB.storyboard in Resources */,
+				DAB86889292BBEC400B94CB1 /* MainImageView.xib in Resources */,
+				DA2D3C9C2A78CE2200AD810E /* Splash.storyboard in Resources */,
+				DA781273292BB01200CE4D63 /* Assets.xcassets in Resources */,
+				DAF28BD6293E170000BDAB63 /* Account.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5926CF5A5FFADE384FB846F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swipeApp/Pods-swipeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swipeApp/Pods-swipeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swipeApp/Pods-swipeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B433579CA18C840EDF078ABE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swipeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA781262292BB00F00CE4D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA81C5362A7B76040064AE3B /* LoginAuthViewController.swift in Sources */,
+				DA78126E292BB00F00CE4D63 /* MainVIewController.swift in Sources */,
+				DA0CB1F82AFA7242003A5AFC /* TinderCardOverlay.swift in Sources */,
+				DAF28BFC2951D62900BDAB63 /* AppleLoginViewController.swift in Sources */,
+				DA0CB2052AFD125D003A5AFC /* ReturnViewController.swift in Sources */,
+				DA0CB1F62AFA6EBB003A5AFC /* CardViewController.swift in Sources */,
+				DA0CB20B2AFD1287003A5AFC /* ProfileViewController.swift in Sources */,
+				DAF28BDF293E245000BDAB63 /* EmailViewController.swift in Sources */,
+				DAF28C022951DE1900BDAB63 /* GenderViewController.swift in Sources */,
+				DA0CB1FF2AFA739E003A5AFC /* Extensions.swift in Sources */,
+				DA41C2F92B1DBEE600E587AC /* LikeTableViewCell.swift in Sources */,
+				DAB8688B292BBF0E00B94CB1 /* MainImageView.swift in Sources */,
+				DA0CB2352AFDFD6A003A5AFC /* CustomTabBarViewController.swift in Sources */,
+				DA81C5302A7A37070064AE3B /* URLSetting.swift in Sources */,
+				DA0CB1FA2AFA733C003A5AFC /* TinderCardContentView.swift in Sources */,
+				DA0CB1F42AFA6B76003A5AFC /* Card.swift in Sources */,
+				DA0CB1FC2AFA735C003A5AFC /* TinderCardFooterView.swift in Sources */,
+				DAB1E9102B2C54F40044AEDB /* ProductDetailViewController.swift in Sources */,
+				DA0CB2332AFDF8F1003A5AFC /* StandardViewController.swift in Sources */,
+				DAF28BD9293E19D700BDAB63 /* SignInViewController.swift in Sources */,
+				DAF28C042951DE3600BDAB63 /* TermsViewController.swift in Sources */,
+				DAF28C062951DFAC00BDAB63 /* WellcomeViewController.swift in Sources */,
+				DA0CB23A2AFE0BC0003A5AFC /* ClosetStruct.swift in Sources */,
+				DA2D3C6F2A789EEA00AD810E /* AppLoadingViewController.swift in Sources */,
+				DA81C5322A7A40840064AE3B /* NetworkManager.swift in Sources */,
+				DA81C5342A7B74B20064AE3B /* LoginViewController.swift in Sources */,
+				DAF28C002951DDF900BDAB63 /* MyBirthDayViewController.swift in Sources */,
+				DAF28BDD293E221000BDAB63 /* AuthCodeViewController.swift in Sources */,
+				DAF28BDB293E214200BDAB63 /* PhoneNumViewController.swift in Sources */,
+				DA0CB2082AFD1277003A5AFC /* LikeViewController.swift in Sources */,
+				DAF28BD4293AD45100BDAB63 /* ContainerViewController.swift in Sources */,
+				DAF28BFE2951DDDC00BDAB63 /* MyNameViewController.swift in Sources */,
+				DA0CB2382AFE0B1C003A5AFC /* ClosetTableViewCell.swift in Sources */,
+				DA81C52D2A7A283B0064AE3B /* UserData.swift in Sources */,
+				DA78126A292BB00F00CE4D63 /* AppDelegate.swift in Sources */,
+				DA0CB2022AFD11EB003A5AFC /* ClosetViewController.swift in Sources */,
+				DAF28C082951E14D00BDAB63 /* EnumFile.swift in Sources */,
+				DA2D3C722A78A08B00AD810E /* NSObject.swift in Sources */,
+				DA2D3C782A78C27E00AD810E /* AppDefine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA781278292BB01200CE4D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA781279292BB01200CE4D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA78127B292BB01200CE4D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1587B4B6BD12A9CEF4458A7B /* Pods-swipeApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = swipeApp/swipeApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJ4538A6BJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = swipeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Splash;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swipeApp.swipeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_USE_INTEGRATED_DRIVER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA78127C292BB01200CE4D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E06B580196E02503496C87 /* Pods-swipeApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = swipeApp/swipeAppRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJ4538A6BJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = swipeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Splash;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swipeApp.swipeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_USE_INTEGRATED_DRIVER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA781261292BB00F00CE4D63 /* Build configuration list for PBXProject "swipeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA781278292BB01200CE4D63 /* Debug */,
+				DA781279292BB01200CE4D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA78127A292BB01200CE4D63 /* Build configuration list for PBXNativeTarget "swipeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA78127B292BB01200CE4D63 /* Debug */,
+				DA78127C292BB01200CE4D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA78125E292BB00F00CE4D63 /* Project object */;
+}
